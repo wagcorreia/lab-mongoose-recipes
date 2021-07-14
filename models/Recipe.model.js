@@ -29,7 +29,7 @@ const recipeSchema = new Schema({
   },
   duration: { type: Number, min: 0 },
   creator: { type: String },
-  created: { type: Date, default: 14 / 07 / 2021 },
+  created: { type: Date, default: Date.now },
 })
 
 const Recipe = mongoose.model('Recipe', recipeSchema)
