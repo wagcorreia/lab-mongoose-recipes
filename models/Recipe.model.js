@@ -6,13 +6,13 @@ const recipeSchema = new Schema({
   // TODO: write the schema
   title: { type: String, required: true, unique: true },
   level: {
-    type: String,
+    type: [String],
     enum: ['Easy Peasy', 'Amateur Chef', 'UltraPro Chef'],
   },
   ingredients: [String],
   cuisine: { type: String, required: true },
   dishType: {
-    type: String,
+    type: [String],
     enum: [
       'breakfast',
       'main_course',

@@ -29,7 +29,7 @@ mongoose
       favoriteToys: ['paper ball', 'cardboard box'],
       ingredients: ['1 corote', '1 limão', '1 copo', '1 colher de açucar'],
       cuisine: 'Bebida matinal',
-      dishType: 'drink',
+      dishType: ['drink', 'breakfast'],
       duration: 5,
       creator: 'corotinho seu amiguinho',
       created: new Date(14 - 07 - 2021),
